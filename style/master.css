@@ -3,11 +3,6 @@
   font-family: 'brandico';
   font-style: normal;
   font-weight: normal;
-  src: url('http://weloveiconfonts.com/api/fonts/brandico/brandico.eot');
-  src: url('http://weloveiconfonts.com/api/fonts/brandico/brandico.eot?#iefix') format('eot'),
-  url('http://weloveiconfonts.com/api/fonts/brandico/brandico.woff') format('woff'),
-  url('http://weloveiconfonts.com/api/fonts/brandico/brandico.ttf') format('truetype'),
-  url('http://weloveiconfonts.com/api/fonts/brandico/brandico.svg#brandico') format('svg');
   src: url('fonts/brandico.eot');
   src: url('fonts/brandicoie.eot') format('eot'),
   url('fonts/brandico.woff') format('woff'),
