@@ -364,7 +364,7 @@ body{
 
 [data-icon]:after {
     content: attr(data-icon);
-    font-family: 'RaphaelIcons';
+    font-family: sans-serif;;
     color: #fff;
   	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
   	position: absolute;
