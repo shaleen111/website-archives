@@ -28,8 +28,8 @@ body{
   font-family: 'Josefin Slab', 'Lato', Arial, sans-serif;
 }
 
-.nav-container > input,
-.nav-container > a {
+.navigation > input,
+.navigation > a {
   position: fixed;
   bottom: 0;
   width: 20%;
@@ -39,7 +39,7 @@ body{
   line-height: 34px;
 }
 
-.nav-container input{
+.navigation input{
   opacity: 0;
   z-index: 1000;
 }
@@ -47,7 +47,7 @@ body{
 .navigation ul li a{
   background-color: blue;
 }
-.nav-container a{
+.navigation a{
   font-weight: 700;
   z-index: 10;
   background: #E41623;
@@ -76,13 +76,13 @@ body{
   right: 0%;
 }
 
-.nav-container>input:checked + a,
-.nav-container>input:checked:hover +a{
+.navigation>input:checked + a,
+.navigation>input:checked:hover +a{
     background: 	#B30027;
 }
 
-.nav-container > input:checked + a:after,
-.nav-container > input:checked:hover +a:after{
+.navigation > input:checked + a:after,
+.navigation > input:checked:hover +a:after{
   bottom: 100%;
   border: solid transparent;
   content: '';
@@ -97,10 +97,10 @@ body{
 }
 
 
-.nav-container>input:hover + a {
+.navigation>input:hover + a {
   background:	#CE2029;
 }
-.nav-container>input:hover +a::after{
+.navigation>input:hover +a::after{
   border-bottom-color:	#CE2029;
 }
 
@@ -337,13 +337,13 @@ h2{
 		margin-top: 0;
 	}
 
-	.nav-container > a {
+	.navigation > a {
 		font-size: 13px;
 	}
 }
 
 @media screen and (max-width: 360px) {
-	.nav-container > a {
+	.navigation > a {
 		font-size: 10px;
 	}
 
