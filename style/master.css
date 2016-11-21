@@ -375,5 +375,5 @@ ul li:hover{
 }
 
 #high {
-  -webkit-backface-visibility: hidden;
+  background: #1E90D7 !important;
 }
