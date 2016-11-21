@@ -375,5 +375,6 @@ ul li:hover{
 }
 
 #high {
-  background: #1E90D7 !important;
+  visibility: hidden !important;
+
 }
