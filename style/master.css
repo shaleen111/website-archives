@@ -374,6 +374,6 @@ ul li:hover{
   cursor: pointer;
 }
 
-ul li a{
+.linked {
   background-color: #1489CC;
 }
