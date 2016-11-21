@@ -44,6 +44,9 @@ body{
   z-index: 1000;
 }
 
+.icons a{
+    background-color: #1E90D7;
+}
 
 .nav-container a{
   font-weight: 700;
