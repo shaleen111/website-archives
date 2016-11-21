@@ -373,3 +373,7 @@ ul li:hover{
   color:  rgba(255,255,255,0.8);
   cursor: pointer;
 }
+
+ul li a {
+    color: #1E90D7;
+}
