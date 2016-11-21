@@ -195,72 +195,6 @@ body{
 	-webkit-backface-visibility: hidden;
 }
 
-/*#nav-panel02:checked ~ .cont-scroll #nav-cont02 h2,
-#nav-panel03:checked ~ .cont-scroll #nav-cont03 h2,
-#nav-panel04:checked ~ .cont-scroll #nav-cont04 h2,
-#nav-panel05:checked ~ .cont-scroll #nav-cont05 h2{
-  -webkit-animation: moveDown 0.6s ease-in-out 0.2s backwards;
-  -moz-animation: moveDown 0.6s ease-in-out 0.2s backwards;
-  -o-animation: moveDown 0.6s ease-in-out 0.2s backwards;
-  -ms-animation: moveDown 0.6s ease-in-out 0.2s backwards;
-  animation: moveDown 0.6s ease-in-out 0.2s backwards;
-}
-
-@-webkit-keyframes moveDown{
-	0% {
-		-webkit-transform: translateY(-40px);
-		opacity: 0;
-	}
-	100% {
-		-webkit-transform: translateY(0px);
-		opacity: 1;
-	}
-}
-@keyframes moveDown{
-	0% {
-		transform: translateY(-40px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0px);
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes moveDown{
-	0% {
-		-moz-transform: translateY(-40px);
-		opacity: 0;
-	}
-	100% {
-		-moz-transform: translateY(0px);
-		opacity: 1;
-	}
-}
-
-@-o-keyframes moveDown{
-	0% {
-		-o-transform: translateY(-40px);
-		opacity: 0;
-	}
-	100% {
-		-o-transform: translateY(0px);
-		opacity: 1;
-	}
-}
-
-@-ms-keyframes moveDown{
-	0% {
-		-ms-transform: translateY(-40px);
-		opacity: 0;
-	}
-	100% {
-		-ms-transform: translateY(0px);
-		opacity: 1;
-	}
-}*/
-
-
 .nav-panel p {
 	position: absolute;
 	text-align: center;
@@ -435,7 +369,7 @@ ul li{
   right: 20px;
 }
 
-ul li:hover{
+ul li a:hover{
   color:  rgba(255,255,255,0.8);
   cursor: pointer;
 }
