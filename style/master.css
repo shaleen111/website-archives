@@ -44,7 +44,7 @@ body{
   z-index: 1000;
 }
 
-.nav-container a{
+.nav-container .red a{
   font-weight: 700;
   z-index: 10;
   background: #E41623;
@@ -372,9 +372,4 @@ ul li{
 ul li:hover{
   color:  rgba(255,255,255,0.8);
   cursor: pointer;
-}
-
-.linked {
-  background-color: #1489CC;
-  z-index: -121312;
 }
