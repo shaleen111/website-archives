@@ -44,10 +44,14 @@ body{
   z-index: 1000;
 }
 
+<<<<<<< HEAD
 .navigation ul li a{
   background-color: blue;
 }
 .navigation a{
+=======
+.nav-container a{
+>>>>>>> parent of 8c0f6f0... ..........................
   font-weight: 700;
   z-index: 10;
   background: #E41623;
