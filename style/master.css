@@ -44,7 +44,7 @@ body{
   z-index: 1000;
 }
 
-.nav-container ul li a{
+.navigation ul li a{
   background-color: blue;
 }
 .nav-container a{
