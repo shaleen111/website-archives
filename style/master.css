@@ -44,7 +44,7 @@ body{
   z-index: 1000;
 }
 
-.nav-container .red a{
+ .red a{
   font-weight: 700;
   z-index: 10;
   background: #E41623;
