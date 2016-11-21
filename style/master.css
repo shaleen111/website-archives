@@ -44,6 +44,9 @@ body{
   z-index: 1000;
 }
 
+.nav-container ul li a{
+  background-color: blue;
+}
 .nav-container a{
   font-weight: 700;
   z-index: 10;
