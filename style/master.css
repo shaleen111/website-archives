@@ -19,7 +19,7 @@ body{
   overflow: hidden;
 }
 
-.navigation{
+.nav-container{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -28,8 +28,8 @@ body{
   font-family: 'Josefin Slab', 'Lato', Arial, sans-serif;
 }
 
-.navigation > input,
-.navigation > a {
+.nav-container > input,
+.nav-container > a {
   position: fixed;
   bottom: 0;
   width: 20%;
@@ -39,19 +39,13 @@ body{
   line-height: 34px;
 }
 
-.navigation input{
+.nav-container input{
   opacity: 0;
   z-index: 1000;
 }
 
-<<<<<<< HEAD
-.navigation ul li a{
-  background-color: blue;
-}
-.navigation a{
-=======
+
 .nav-container a{
->>>>>>> parent of 8c0f6f0... ..........................
   font-weight: 700;
   z-index: 10;
   background: #E41623;
@@ -80,13 +74,13 @@ body{
   right: 0%;
 }
 
-.navigation>input:checked + a,
-.navigation>input:checked:hover +a{
+.nav-container>input:checked + a,
+.nav-container>input:checked:hover +a{
     background: 	#B30027;
 }
 
-.navigation > input:checked + a:after,
-.navigation > input:checked:hover +a:after{
+.nav-container > input:checked + a:after,
+.nav-container > input:checked:hover +a:after{
   bottom: 100%;
   border: solid transparent;
   content: '';
@@ -101,10 +95,10 @@ body{
 }
 
 
-.navigation>input:hover + a {
+.nav-container>input:hover + a {
   background:	#CE2029;
 }
-.navigation>input:hover +a::after{
+.nav-container>input:hover +a::after{
   border-bottom-color:	#CE2029;
 }
 
@@ -341,13 +335,13 @@ h2{
 		margin-top: 0;
 	}
 
-	.navigation > a {
+	.nav-container > a {
 		font-size: 13px;
 	}
 }
 
 @media screen and (max-width: 360px) {
-	.navigation > a {
+	.nav-container > a {
 		font-size: 10px;
 	}
 
