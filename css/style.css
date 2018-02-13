@@ -1,0 +1,137 @@
+@font-face {
+font-family: "Moon";
+src: url("fonts/moon/Moon2.0-Regular.otf");
+}
+
+@font-face {
+font-family: "Moon-Bold";
+src: url("fonts/moon/Moon2.0-Bold.otf");
+}
+
+@font-face {
+font-family: "Basic";
+src: url("fonts/basic/Basic-Regular.ttf");
+}
+
+body {
+    background-color: whitesmoke;
+    margin-bottom: 4.3%;
+}
+
+#title > h2 {
+    font-family: 'Moon-Bold';
+    font-size: 38px;
+    padding-top: 6px;
+    font-weight: 400;
+}
+
+#title{
+    float: left;
+    margin-top: 2%;
+    margin-left: 20%;
+    position: fixed;
+}
+
+#nav {
+    margin-top: 4.3%;  
+    margin-right: 19%;  
+    width: 245px;
+    float: right;
+}
+
+#nav a {
+    font-family: 'Moon';
+    font-size: 25px;
+    color: black;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.content {
+    font-family: "Basic";
+    margin-left: auto;
+    margin-right: 19%;
+    text-align: left;
+    width: 34%;
+    font-size: 18px;
+}
+
+.content h3 {
+    padding-top:6px;
+    font-size: 30px;
+    font-weight: 575;
+    padding-bottom:6px;
+}
+
+.content p {
+    padding-top: 6px;    
+    padding-bottom: 6px;
+}
+
+.hline-bottom {
+    padding-top: 2%;
+    width: 34%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000; /* whichever color you prefer */
+    margin-left: auto;
+    margin-right: 19%;
+}
+
+.highlight {
+    color: darkgreen;
+}
+
+#active{
+    background-color: #808080;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    #nav {
+        padding-top: 5%;
+        float: none;
+        clear: both;
+        margin: auto;
+    }
+    #title {
+        float: none;
+        clear: both;
+        position: static;
+    }
+    #title > h2 {
+        margin: 0px auto !important;
+    }
+
+    .hline-bottom {
+        width: 65%;
+        margin: auto;
+    }
+    .content {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+        #title > h2 {
+            font-size: 30px;
+        }
+        #nav a {
+            font-size: 20px;
+        }
+}
