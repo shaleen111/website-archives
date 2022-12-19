@@ -8,4 +8,6 @@ Website Archives
           </a>
 </p>
 
+<center>
 Archive of different websites I made ages ago. Check branches!
+</center>
